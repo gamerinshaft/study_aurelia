@@ -4,6 +4,7 @@ export class Welcome {
   heading = 'Welcome to the Aurelia Navigation App!';
   firstName = 'John';
   lastName = 'Doe';
+  label = "huga";
   previousValue = this.fullName;
 
   //Getters can't be directly observed, so they must be dirty checked.
